@@ -1,0 +1,53 @@
+--- 
+layout: layouts/base.njk 
+profile:
+    name: Ant Stanley
+    image: img/ant240.jpeg
+    strap: Technologist. Community Organiser. Consultant.
+    social:
+    -   network: twitter
+        link: https://twitter.com/IamStan
+    -   network: medium
+        link: https://medium.com/@IamStan
+    -   network: linkedin
+        link: https://www.linkedin.com/in/antstanley/
+    -   network: github
+        link: https://github.com/antstanley
+    email: hello@antstanley.me
+---
+
+<div class="w-100 center mt2 mt3-m mt5-l"> 
+    <div class="flex-ns w-100">
+        <div class="w-20-m w-30-l dn db-ns">
+        </div>
+        <div class="w-100 w-40-m w-30-l">
+            <div class="measure pa2 pa3-ns">
+                <h1 class="f1 tc tl-ns mb0 mb2-ns"> {{ profile.name }} </h1>
+                <p class="pl3 pa0-ns ma0-ns f4">{{ profile.strap }}</p>
+                <div class="flex-ns measure-wide center pv3 tc">
+                    {% for social in profile.social %}
+                    <span class="tc pr3">
+                        <a href={{ social.link }} target="_blank"> <img width=30 height=30 src=img/{{ social.network }}.svg /> </a> 
+                    </span>
+                    {% endfor %}
+                </div>
+                <p class="pl3 pa0-ns ma0-ns f5">{{ profile.email }}</p>
+            </div>
+        </div>
+        <div class="w-100 w-40-ns tc tl-ns">
+            <img class="ba br-100 b--transparent pa2 pa4-ns" src={{ profile.image }} />
+        </div>
+    </div>
+</div>
+
+<div class="w-100 pa4 pa2-ns center measure-wide f4 mt2 mt5-ns markdown-body">
+    {{ content | safe }}
+</div>
+
+
+    
+
+
+
+
+
