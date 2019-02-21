@@ -1,5 +1,25 @@
 ---
 layout: layouts/home.njk
+page:
+    title: Ant Stanley
+    description: Technologist. Community Organiser. Consultant.
+    url: https://antstanley.me
+    image: img/ant240.jpeg
+    twitter: https://twitter.com/IamStan
+profile:
+    name: Ant Stanley
+    image: img/ant240.jpeg
+    strap: Technologist. Community Organiser. Consultant.
+    social:
+    -   network: twitter
+        link: https://twitter.com/IamStan
+    -   network: medium
+        link: https://medium.com/@IamStan
+    -   network: linkedin
+        link: https://www.linkedin.com/in/antstanley/
+    -   network: github
+        link: https://github.com/antstanley
+    email: hello@antstanley.me
 ---
 
 I am a community focused technologist with a passion for enabling 
