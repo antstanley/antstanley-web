@@ -4,7 +4,7 @@ page:
     title: Ant Stanley
     description: Technologist. Community Organiser. Consultant.
     url: https://antstanley.me
-    image: img/ant240.jpeg
+    image: https://antstanley.me/img/ant240.jpeg
     twitter: https://twitter.com/IamStan
 profile:
     name: Ant Stanley
@@ -22,9 +22,7 @@ profile:
     email: hello@antstanley.me
 ---
 
-I am a community focused technologist with a passion for enabling 
-better outcomes for society through technology.  I run the [Serverless London User Group](https://www.meetup.com/Serverless-London/), co-run 
-[ServerlessDays London](https://london.serverlessdays.io) and am part of the [ServerlessDays](https://serverlessdays.io) Global team.
+I am a community focused technologist with a passion for enabling better outcomes for society through technology.  I run the [Serverless London User Group](https://www.meetup.com/Serverless-London/), co-run [ServerlessDays London](https://london.serverlessdays.io) and am part of the [ServerlessDays](https://serverlessdays.io) Global team.
 
 Previously I [co-founded A Cloud Guru](https://www.linkedin.com/pulse/cloud-skills-future-work-anthony-stanley/?articleId=6054611795497283584) along with Ryan and Sam Kroonenburg. Whilst at A Cloud Guru I [ran the first ServerlessConf](https://serverlesscode.com/post/serverless-conf-is-here/), the first Serverless conference in the world. I left A Cloud Guru after [a busy 14 months](https://precipitation.io/the-last-fourteen-months-a77769887f8b).
 
